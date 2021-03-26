@@ -1,3 +1,3 @@
 # matjar-template
 
-## This project has made for training reasons 
+## This project is presented for training purposes
