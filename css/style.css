@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    overflow-y: unset;
+}
+header{
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: fit-content;
+    /* z-index: 100; */
+}
+header nav{
+    overflow: hidden;
+    padding: 10px 40px;
+
+}
+header nav img{
+    max-width: 13%;
+    min-width: 200px;
+    height: 70px;
+    float: left;
+    padding-right: 35px;
+    border-right: #2d409b 7px solid;
+}
+header nav ul{
+    float: left;
+    margin: 0 30px;
+    height: inherit;
+}
+
+header nav ul li{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(107, 107, 107);
+    display: inline-block;
+    padding: 15px 30px;
+}
+header nav ul li a{
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+
+}
+header nav button{
+    float: right;
+    margin-right:  30px;
+    background-color: #68d3fd;
+    font-size: 30px;
+    color: rgb(107, 107, 107);
+    margin: 7px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    padding: 10px;
+    font-weight: 700;
+
+}
+.clearFloat{
+    clear: both;
+}
+.welcomeImage{
+    position: relative;
+    height: 650px;
+    background-image: url(../img/mainImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcomeImage p{
+    max-width: 55%;
+    font-size: 2.2rem;
+    position: absolute;
+    word-spacing: 5px;
+    top: 70%;
+    left: 11%;
+    color: rgb(255, 255, 255);
+}
+.welcomeImage h1{
+    color: aliceblue;
+    font-size: 4rem;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-weight: 900;
+}
+section{
+    overflow: hidden;
+    text-align: center;
+    width: 90%;
+    margin:auto ;
+    margin-top: 150px;
+    background-color: rgb(245 244 244);
+    border-radius: 20px;
+}
+.sectionTitle{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 4em;
+    color: rgb(59, 59, 59);
+}
+.sectionDesc{
+    /* font-weight: 900; */
+    font-size: 2em;
+    color: rgb(59, 59, 59);
+    margin: 20px;
+
+}
+.productContainer{
+    width: 90%;
+    padding: 15px;
+    margin: auto;
+    /* background-color: rgb(0, 0, 0); */
+    overflow: hidden;
+}
+.productCard{
+    width: 30%;
+    background-color: #009aff40;
+    height: 400px;
+    float: left;
+    margin: 20px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+
+}
+.productCard img{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: -12%;
+    left: 10%;
+    background-color: #7bd5d5;
+    border-radius: 200px;
+}
+.productCard h4{
+    position: absolute;
+    width: 100%;
+    bottom: 35px;
+    font-size: 75px;
+    font-weight: 900;
+    font-style: oblique;
+    letter-spacing: 5px;
+}
