@@ -4,15 +4,16 @@ html{
 }
 body{
     overflow-y: unset;
+    background-color: rgb(255, 249, 249);
 }
 header{
     width: 100%;
     background-color: #ffffff;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     height: fit-content;
-    /* z-index: 100; */
+    z-index: 100;
 }
 header nav{
     overflow: hidden;
@@ -51,10 +52,10 @@ header nav button{
     margin-right:  30px;
     background-color: #68d3fd;
     font-size: 30px;
-    color: rgb(107, 107, 107);
+    color: white;
     margin: 7px 30px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor:pointer;
     padding: 10px;
     font-weight: 700;
@@ -65,10 +66,11 @@ header nav button{
 }
 .welcomeImage{
     position: relative;
-    height: 650px;
+    height: 700px;
     background-image: url(../img/mainImage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 .welcomeImage p{
     max-width: 55%;
@@ -93,6 +95,7 @@ section{
     width: 90%;
     margin:auto ;
     margin-top: 150px;
+    margin-bottom: 75px;
     background-color: rgb(245 244 244);
     border-radius: 20px;
 }
@@ -114,6 +117,7 @@ section{
     width: 90%;
     padding: 15px;
     margin: auto;
+    margin-bottom: 90px;
     /* background-color: rgb(0, 0, 0); */
     overflow: hidden;
 }
@@ -146,3 +150,75 @@ section{
     font-style: oblique;
     letter-spacing: 5px;
 }
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: #68d3fd;
+    color: white;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  
+  hr{
+      width: 50%;
+      margin: auto;
+  }
+  .about{
+background-color: white;
+margin-top: 75px;
+  }
+.AboutUsContainer{
+    margin-top: 80px;
+    display: table;
+    width: 100%;
+}
+  .leftContainer,.rightContainer{
+      /* background-color: red; */
+      /* border: 1px solid black; */
+      height: 700px;
+      display: table-cell;
+      width: 50%;
+  }
+  .rightContainer{
+      background-image: url('../img/AboutPic.png');
+      opacity: 0.90;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .leftContainer{
+      background-color: #01fefe52;
+      position: relative;
+      /* background-color: black; */
+  }
+  .leftContainer h1{
+    font-size: 3em;
+    font-weight: 900;
+    color: rgb(26 34 64);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 10%;
+    /* left: 0%;*/
+
+  }
+  .leftContainer p{
+      font-size: 2rem;
+      font-weight: 900;
+      color: rgb(131, 131, 131);
+
+      position: absolute;
+      top:45%;
+
+  }
