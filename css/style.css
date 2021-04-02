@@ -308,7 +308,7 @@ margin-top: 75px;
     border-width: 7px;
   }
   .productCard:hover > img {
-    background-color: #0000009e;
+    background-color: #32405a;
     transition-property: all;
     transition-duration: 1.2s;
     transform: scale(1.2);
@@ -325,4 +325,88 @@ div.priceTag {
     display: block;
     color: white;
 
+}
+
+/********************************************************************/
+/******************** Login Form *********************/
+/********************************************************************/
+main .loginForm{
+    overflow: hidden;
+    z-index: 10;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    height: 60%;
+    width: 30%;
+    /* background-color: #32405a; */
+    background-color: #fbfdff;
+    display: none;
+    transition-property: display;
+    transition-duration: 5.2s;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #000000;
+    text-align: center;
+}
+.loginFormContainer #closeFormBtn{
+    position: absolute;
+    color: white;
+    border-radius: 0;
+    cursor: pointer;
+    border: 1px solid rgb(0, 8, 10);
+    right:0%;
+    top:0%;
+    background-color: #1b2231;
+    height: 50px;
+    width: 50px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.loginFormContainer form{
+    margin: 60px 0;
+}
+.loginFormContainer form h1{
+    margin-bottom: 30px;
+    font-size: 3em;
+    font-weight: 700;
+}
+.infoDiv div{
+    width:100%;
+}
+.infoDiv div label{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    font-size: 1.2rem;
+    /* color: white; */
+}
+.infoDiv div label i{
+ margin: 0 7px;
+}
+.infoDiv div input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    /* background-color: #141c2982; */
+}
+.loginFormContainer form a{
+    position: absolute;
+    bottom:12%;
+    left: 15%;
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+}
+.loginFormContainer form button{
+    overflow: hidden;
+    background-color: #68d3fd;
+    color: white;
+    height: fit-content;
+    position: absolute;
+    border-radius: 5px;
+    bottom:10%;
+    right: 15%;
+    font-size: 20px;
+    font-weight: 700;
 }
